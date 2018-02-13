@@ -1,0 +1,45 @@
+body {
+  font-family: Roboto, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+label, .articleClass {
+  font-size: 14px;
+}
+.masthead {
+  background-color: #FFC107;
+  padding: 2em;
+  text-align: center;
+}
+
+#search-keyword {
+  background-color: #FAFFBD;
+  padding: .5em;
+  border-radius: 5px;
+}
+
+#search-form {
+  padding: 1em;
+}
+
+#submit-btn {
+  background-color: #3D4FFF;
+  color: #fff;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.visuallyhidden {
+  font-size: 18px;
+  color: #FFD;
+}
+
+#response-container {
+  padding: 1em;
+}
+
+.articleClass {
+  list-style: none;
+  padding: 2em;
+  background-color: rgb(226, 250, 196);
+  border: 1px solid #FFC107;
+}
