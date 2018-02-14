@@ -2,6 +2,10 @@ body {
   font-family: Roboto, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+section {
+  width: 50%;
+}
+
 label, .articleClass {
   font-size: 14px;
 }
