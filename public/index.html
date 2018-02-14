@@ -12,46 +12,45 @@
 </head>
 <body>
   <header class="masthead">
-    <section class="container-fluid bg-xhr-container">
-      <div class="row">
-        <div class="col">
-          <h1>Qué te interesa hoy?</h1>
-          <div class="site-container">
-            <form id="search-form">
-              <label for="search-keyword" class="visuallyhidden">¿Qué buscamos?</label>
-              <input type="text" id="search-keyword" name="search-keyword" placeholder="e.g. Android" required>
-              <input type="submit" id="submit-btn" value="Submit">
-            </form>
-          </div>
-    
-          <div class="site-container">
-            <ul id="response-container"></ul>
-          </div>
-        </div>
-      </div>
-    </section>
- 
-    <section class="container-fluid bg-fetch-container">
-      <div class="row">
-        <div class="col">
-          <h1>Qué te interesa hoy?</h1>
-
-          <div class="site-fetch-container">
-            <form id="search-fetch-form">
-              <label for="search-fetch-keyword" class="visuallyhidden">¿Qué buscamos?</label>
-              <input type="text" id="search-fetch-keyword" name="search-keyword" placeholder="e.g. Android" required>
-              <input type="submit" id="submit-fetch-btn" value="Submit for fetch">
-            </form>
-          </div>
-    
-          <div class="site-container">
-            <ul id="response-fetch-container"></ul>
-          </div>
-        </div>
-      </div>
-    </section>
+    <h1>Petición a la página del NY Times</h1>
   </header>
 
+  <div class="row">
+    <div class="col col-lg-6">
+      <div class="container-fluid bg-xhr-container">
+        <h1 class="center">Qué te interesa hoy?</h1>
+        <div class="site-container">
+          <form id="search-form">
+            <label for="search-keyword" class="visuallyhidden">¿Qué buscamos?</label>
+            <input type="text" id="search-keyword" name="search-keyword" placeholder="e.g. Android" required>
+            <input type="submit" id="submit-btn" value="Submit">
+          </form>
+        </div>
+  
+        <div class="site-container">
+          <ul id="response-container"></ul>
+        </div>
+      </div>
+    </div>
+    <div class="col col-lg-6">
+      <div class="container-fluid bg-fetch-container">
+        <h1 class="center">Qué te interesa hoy?</h1>
+
+        <div class="site-fetch-container">
+          <form id="search-fetch-form">
+            <label for="search-fetch-keyword" class="visuallyhidden">¿Qué buscamos?</label>
+            <input type="text" id="search-fetch-keyword" name="search-keyword" placeholder="e.g. Android" required>
+            <input type="submit" id="submit-fetch-btn" value="Submit for fetch">
+          </form>
+        </div>
+  
+        <div class="site-container">
+          <ul id="response-fetch-container"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <script src="js/app.js"></script>
 </body>
 </html>
